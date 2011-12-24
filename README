@@ -12,10 +12,10 @@ Directory Structure
 AdroidDeviceSuppot
  |
  `----- framework : framework for android to support joystick and barcode scanner
- |			|
- |			`------ barcode : android service for barcode scanner
- |			|
- |			`------ joystick : android servcie for joystick
+ |      |
+ |      `------ barcode : android service for barcode scanner
+ |      |
+ |      `------ joystick : android servcie for joystick
  |
  `----- joystickApp : sample android application to test joystick
  |
