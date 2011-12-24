@@ -1,0 +1,24 @@
+Extending the Android Framework with New Devices:
+=================================================
+
+This project aims to provide support new device for the android platfrom.
+I've currently provided basis support for joystick and barcode scanner.
+
+This project is combined effort of me <nitheeshkl@gmail.com> and shree kumar<shree.shree@gmail.com>
+
+Directory Structure
+===================
+
+AdroidDeviceSuppot
+ |
+ `----- framework : framework for android to support joystick and barcode scanner
+ |			|
+ |			`------ barcode : android service for barcode scanner
+ |			|
+ |			`------ joystick : android servcie for joystick
+ |
+ `----- joystickApp : sample android application to test joystick
+ |
+ `----- barcodeApp : sample android application to test barcode scanner
+ |
+ `----- ExtendingTheAndroidFramework.pdf : Documentation of the project
