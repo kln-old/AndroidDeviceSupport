@@ -1,0 +1,4 @@
+find . | xargs touch
+mmm jni
+mm
+adb install -r ~/android-x86/out/target/product/generic_x86/system/app/BarcodeScannerService.apk

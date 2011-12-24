@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.app.Service"/>
+<fullyQualifiedTypeName name="android.content.ServiceConnection"/>
+<fullyQualifiedTypeName name="android.os.IBinder"/>
+<fullyQualifiedTypeName name="android.content.ComponentName"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.IJoystick"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.IJoystick.Stub"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.JoystickCallback"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.JoystickCallback.Stub"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.Joystick"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.SampleApp.R.layout"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.SampleApp.R.attr"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.SampleApp.R"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.SampleApp.R.string"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.id"/>
+<fullyQualifiedTypeName name="com.sample.hardware.joystick.SampleApp.R.id"/>
+</qualifiedTypeNameHistroy>

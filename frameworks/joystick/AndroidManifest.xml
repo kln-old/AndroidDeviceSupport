@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sample.android.service"
+    android:sharedUserId="android.uid.system" >
+
+    <permission android:name="com.sample.android.permission.USE_JOYSTICK"
+                android:label="@string/permlabel_use_joystick"
+                android:description="@string/permdesc_use_joystick"
+                android:protectionLevel="normal" />
+    <!-- components inside me will use my permissions too -->
+
+    <uses-permission android:name="com.sample.android.permission.USE_JOYSTICK" />    
+
+    <application android:label="Sample Joystick Service">
+    
+        <!-- This tells the system about the additional library used by the
+             application, so that it can be properly loaded and linked
+             to the app when the app is initialized. -->
+        <uses-library android:name="com.sample.hardware.joystick" />
+        
+        <service android:name="com.sample.android.service.JoystickService"
+                 android:enabled="true"
+                 android:exported="true"
+                 android:label="Joystick Service"
+                 android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.sample.android.service.JoystickService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

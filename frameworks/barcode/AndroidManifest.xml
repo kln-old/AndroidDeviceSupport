@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sample.service.barcode"
+    android:sharedUserId="android.uid.system" >
+
+    <permission android:name="com.sample.android.permission.USE_BARCODE"
+                android:label="@string/permlabel_use_barcode"
+                android:description="@string/permdesc_use_barcode"
+                android:protectionLevel="normal" />
+    <!-- components inside me will use my permissions too -->
+
+    <uses-permission android:name="com.sample.android.permission.USE_JOYSTICK" />    
+
+    <application android:label="Sample Barcode Service">
+    
+        <!-- This tells the system about the additional library used by the
+             application, so that it can be properly loaded and linked
+             to the app when the app is initialized. -->
+        <uses-library android:name="com.sample.hardware.barcode" />
+        
+        <service android:name="com.sample.service.barcode.BarcodeScannerService"
+                 android:enabled="true"
+                 android:exported="true"
+                 android:label="Barcode Service"
+                 android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.sample.service.barcode.BarcodeScannerService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

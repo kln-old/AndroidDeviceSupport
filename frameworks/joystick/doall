@@ -1,0 +1,7 @@
+find . | xargs touch
+mmm jni
+mm
+adb push ../../out/target/product/generic_x86/system/framework/com.sample.hardware.joystick.jar /system/framework
+adb install -r ../../out/target/product/generic_x86/system/app/JoystickService.apk
+adb push ../../out/target/product/generic_x86/system/lib/libsample_joystick.so /system/lib
+#unzip -o ../../out/target/product/generic_x86/system/framework/com.sample.hardware.joystick.jar

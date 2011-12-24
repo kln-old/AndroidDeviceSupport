@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="permlabel_use_joystick">joystick_permission</string>
+	<string name="permdesc_use_joystick">joystick_permission_description</string>
+</resources>

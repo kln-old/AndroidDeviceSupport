@@ -1,0 +1,7 @@
+find . | xargs touch
+mmm jni
+mm
+adb push com.sample.hardware.barcode.xml /system/etc/permissions
+adb push ~/android-x86/out/target/product/generic_x86/system/framework/com.sample.hardware.barcode.jar /system/framework
+adb install -r ~/android-x86/out/target/product/generic_x86/system/app/BarcodeScannerService.apk
+adb push ~/android-x86/out/target/product/generic_x86/system/lib/libsample_barcode.so /system/lib
