@@ -22,3 +22,6 @@ AdroidDeviceSuppot
  `----- barcodeApp : sample android application to test barcode scanner
  |
  `----- ExtendingTheAndroidFramework.pdf : Documentation of the project
+ |
+ |
+ `----- README.txt : this file
